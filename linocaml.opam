@@ -7,7 +7,7 @@ dev-repo: "https://github.com/keigoi/linocaml.git"
 license: "Apache"
 build:
   [[ "dune" "build" "-p" name "-j" jobs ]]
-available: [ ocaml-version >= "4.05" ]
+available: [ ocaml-version >= "4.06.1" ]
 depends: [
   "dune" {build & >= "1.0"}
   "ocaml-migrate-parsetree"
